@@ -5,8 +5,23 @@ body{
 
 img {
     padding: 10px;
+    display: inline-block;
   }
+.image_link:hover {
+   opacity: 0.5;
+}
 
+th {
+  text-align: center;
+  background: #333;  
+  color: #efeee7cf;
+}
+
+.active_img {
+  border-color: rgb(10, 98, 101);
+  border: 2px;
+  border-style: solid;
+}
 .copy {
     margin: 20 !important;
     font-family: Garamond, Georgia, "Times New Roman", Times, serif;
